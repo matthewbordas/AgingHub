@@ -1,0 +1,16 @@
+name: aginghub
+dependencies:
+  - python >= 3.8
+  - flask
+  - pylint
+  - gunicorn
+  - pytest
+  - black
+  - rope
+  - coverage
+  - python-json-logger
+  - pyyaml
+  - numpy
+  - pandas
+  - jupyter
+

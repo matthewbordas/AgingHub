@@ -1,0 +1,7 @@
+*
+!aginghub/**
+!data/**
+!Dockerfile
+!.dockerignore
+!gunicorn.conf.py
+!logging.conf.yml

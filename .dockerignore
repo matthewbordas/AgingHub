@@ -1,0 +1,7 @@
+*
+!aginghub
+!data
+!gunicorn.conf.py
+!logging.conf.yml
+!requirements.txt
+
