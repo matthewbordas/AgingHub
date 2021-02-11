@@ -1,5 +1,7 @@
 # AgingHub
-- v0.1.0
+A web portal for aiding the research community in understanding genes involved in aging
+
+_v0.1.0_
 
 
 ## Dev Setup
