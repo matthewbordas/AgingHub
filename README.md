@@ -1,5 +1,5 @@
 # AgingHub
-A web portal for aiding the research community in understanding genes involved in aging
+A web app for aiding the research community in understanding genes involved in aging
 
 _v0.1.0_
 
