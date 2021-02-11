@@ -1,5 +1,4 @@
 # AgingHub
-- ~[aginghub.org](http://aginghub.org)~ (_INSTANCES CURRENTLY SCALED TO ZERO_)
 - v0.1.0
 
 
