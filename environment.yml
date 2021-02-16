@@ -5,8 +5,6 @@ dependencies:
   - pylint
   - gunicorn
   - pytest
-  - black
-  - rope
   - coverage
   - python-json-logger
   - pyyaml

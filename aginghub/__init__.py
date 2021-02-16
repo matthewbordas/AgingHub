@@ -6,7 +6,7 @@ import pathlib
 from flask import Flask
 import yaml
 
-from aginghub.services.home import home_api
+from aginghub.home import home_api
 from .repository import Repository
 
 def create_app() -> Flask:
