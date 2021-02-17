@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-  entry: './aginghub/services/home/home.js',
+  entry: './aginghub/home/home.entry.js',
   module: {
     rules: [
       {
