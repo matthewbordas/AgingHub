@@ -1,7 +1,11 @@
 *
 !aginghub
 !data
+!babel.config.js
+!package-lock.json
+!package.json
 !gunicorn.conf.py
 !logging.conf.yml
 !requirements.txt
-
+!webpack.common.js
+!webpack.prod.js

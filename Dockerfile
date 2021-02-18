@@ -1,6 +1,8 @@
-FROM python:3.8
+FROM nikolaik/python-nodejs:python3.8-nodejs14
 COPY . .
 RUN pip install -r requirements.txt
+RUN npm install
+RUN npm run build-prod
 # options: development, production
 ENV FLASK_ENV=production
 ENV HTTP_PORT=80

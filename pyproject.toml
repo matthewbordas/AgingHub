@@ -1,7 +1,3 @@
-[tool.coverage.run]
-branch = true
-source = ["aginghub"]
-
 [tool.pytest.ini_options]
 # addopts = "-s" # uncomment to view logs while running tests
 testpaths = ["tests"]
