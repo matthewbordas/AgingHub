@@ -1,6 +1,5 @@
 # --- CUSTOMIZATIONS ---
 *.DS_Store
-.vscode
 node_modules
 
 # Byte-compiled / optimized / DLL files
