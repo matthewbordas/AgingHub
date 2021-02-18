@@ -6,13 +6,13 @@ import pathlib
 from flask import Flask
 import yaml
 
-from aginghub.home import home_api
+from aginghub.home import home_routes
 from .repository import Repository
 
 def create_app() -> Flask:
     configure_logger()
-    app = Flask(__name__)
-    app.register_blueprint(home_api)
+    app = Flask(__name__, static_folder='./dist', static_url_path='/')
+    app.register_blueprint(home_routes)
     repo = Repository()
     repo.load_aging_counter(repo.get_aging_counter_path())
 
